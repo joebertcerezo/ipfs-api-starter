@@ -13,7 +13,7 @@ async function uploadImage(imagePath: string) {
 		const file = new File([imageBuffer], fileName);
 		data.append("file", file);
 
-		// Optional: Add metadata
+		// Optional: Add metadata as
 		const metadata = JSON.stringify({
 			name: `Cucumber Chad - ${fileName}`,
 			keyvalues: {
