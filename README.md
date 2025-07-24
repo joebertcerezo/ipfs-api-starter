@@ -5,7 +5,6 @@ This repo includes some basic API calls to help get you started using the IPFS A
 **Watch the video!**
 [![IMAGE ALT TEXT HERE](https://dweb.mypinata.cloud/files/bafybeidq7raunlrwrnvzif5pcwvtrndhu7wz7udwf2kfl6mprhjs63u6jq)](https://www.youtube.com/watch?v=qarW5KhIWXE)
 
-
 > [!TIP]
 > If you plan to use Pinata in a Typescript/Javascript enviornment, check out our [SDK](https://github.com/PinataCloud/pinata)!
 
@@ -36,7 +35,28 @@ GATEWAY_URL=
 
 Start using the API by running the following:
 
+**Upload JSON files:**
+
+```bash
+npm run upload
 ```
+
+**Upload image files:**
+
+```bash
+npm run upload-image <path-to-image>
+```
+
+For example:
+
+```bash
+npm run upload-image logo.png
+npm run upload-image /path/to/your/image.png
+```
+
+**Using Bun (original):**
+
+```bash
 bun upload-files.ts
 ```
 
