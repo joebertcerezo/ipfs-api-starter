@@ -1,11 +1,30 @@
 {
-	"name": "ipfs-api-starter",
-	"module": "index.ts",
-	"type": "module",
-	"devDependencies": {
-		"@types/bun": "latest"
-	},
-	"peerDependencies": {
-		"typescript": "^5.0.0"
-	}
+  "name": "ipfs-api-starter",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "description": "This repo includes some basic API calls to help get you started using the IPFS API.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "bun-types": "^1.2.19",
+    "csstype": "^3.1.3",
+    "dotenv": "^17.2.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.0.0",
+    "undici-types": "^7.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "upload": "tsx upload-file.ts",
+    "upload-image": "tsx upload-image.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
