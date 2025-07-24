@@ -1,7 +1,28 @@
+import 'dotenv/config';
+
 async function main() {
 	try {
+
+		const json = {
+  "name": "cucumber 1",
+
+  "description": "xxx description of NFT xxx",
+
+  "image": "https://ipfs.io/ipfs/QmSfcUPG9i4NuyRFTbUddmeTQygn4pirN8HteeRLAufcVn",
+
+  "attributes": [
+    {
+      "trait_type": "xxxxxxx trait label xxxxx",
+      "value": "Mist xxxxxxx trait description xxxxx"
+    },
+    {
+      "trait_type": "xxxxxx trait label xxxxxx",
+      "value": "xxxxxxx trait label xxxxxxx"
+    }
+  ]
+}
 		// Construct a file according to the Web API
-		const file = new File(["Hello World!"], "hello.txt");
+		const file = new File([JSON.stringify(json)], "1.json");
 
 		// Create form data and attach the file
 		const data = new FormData();
