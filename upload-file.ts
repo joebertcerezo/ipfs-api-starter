@@ -4,25 +4,46 @@ async function main() {
 	try {
 
 		const json = {
-  "name": "cucumber 1",
-
-  "description": "xxx description of NFT xxx",
-
-  "image": "https://ipfs.io/ipfs/QmSfcUPG9i4NuyRFTbUddmeTQygn4pirN8HteeRLAufcVn",
-
+  "name": "Cucumber Chad: Rainbow Riot",
+  "description": "Chad's gone full spectrum! This psychedelic version of our beloved Cucumber Chad brings maximum energy with a kaleidoscope background that's as bold as his personality. The rainbow checkerboard pattern represents Chad's versatility and his ability to adapt to any vibe while maintaining that legendary alpha cucumber swagger. This is Chad at his most expressive - fresh, colorful, and absolutely electric!",
+  "image": "https://ipfs.io/ipfs/QmbUAffQwNnNepW3quNskYmGH6yp85AdNG3G6w2mwbGq52",
   "attributes": [
     {
-      "trait_type": "xxxxxxx trait label xxxxx",
-      "value": "Mist xxxxxxx trait description xxxxx"
+      "trait_type": "Character Type",
+      "value": "Alpha Cucumber"
     },
     {
-      "trait_type": "xxxxxx trait label xxxxxx",
-      "value": "xxxxxxx trait label xxxxxxx"
+      "trait_type": "Background Pattern",
+      "value": "Rainbow Checkerboard"
+    },
+    {
+      "trait_type": "Facial Hair",
+      "value": "Classic Mustache"
+    },
+    {
+      "trait_type": "Eyewear",
+      "value": "Dark Sunglasses"
+    },
+    {
+      "trait_type": "Vibe",
+      "value": "Psychedelic"
+    },
+    {
+      "trait_type": "Color Scheme",
+      "value": "Full Spectrum"
+    },
+    {
+      "trait_type": "Energy Level",
+      "value": "Maximum"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Ultra Rare"
     }
   ]
 }
 		// Construct a file according to the Web API
-		const file = new File([JSON.stringify(json)], "1.json");
+		const file = new File([JSON.stringify(json)], "3.json");
 
 		// Create form data and attach the file
 		const data = new FormData();
