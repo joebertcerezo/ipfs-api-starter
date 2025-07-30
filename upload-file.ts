@@ -4,9 +4,9 @@ async function main() {
 	try {
 
 		const json = {
-  "name": "Cucumber Chad: Rainbow Riot",
-  "description": "Chad's gone full spectrum! This psychedelic version of our beloved Cucumber Chad brings maximum energy with a kaleidoscope background that's as bold as his personality. The rainbow checkerboard pattern represents Chad's versatility and his ability to adapt to any vibe while maintaining that legendary alpha cucumber swagger. This is Chad at his most expressive - fresh, colorful, and absolutely electric!",
-  "image": "https://ipfs.io/ipfs/QmbUAffQwNnNepW3quNskYmGH6yp85AdNG3G6w2mwbGq52",
+  "name": "Cucumber Chad: Fire Grid Master",
+  "description": "Chad's bringing the heat! This fierce version of our legendary Cucumber Chad showcases his strategic mind with a classic tic-tac-toe grid backdrop set against blazing flames. The fiery orange and red gradient background represents Chad's burning passion for victory, while the grid symbolizes his tactical approach to domination. With his signature mustache and dark shades, this Chad is ready to play the game of life - and win every time!",
+  "image": "https://ipfs.io/ipfs/QmaNynKRfNTshdkVNgUEULwyfzJtmNqttMyKP8EwuBni3i",
   "attributes": [
     {
       "trait_type": "Character Type",
@@ -14,7 +14,11 @@ async function main() {
     },
     {
       "trait_type": "Background Pattern",
-      "value": "Rainbow Checkerboard"
+      "value": "Tic-Tac-Toe Grid"
+    },
+    {
+      "trait_type": "Background Effect",
+      "value": "Fire Gradient"
     },
     {
       "trait_type": "Facial Hair",
@@ -25,25 +29,29 @@ async function main() {
       "value": "Dark Sunglasses"
     },
     {
-      "trait_type": "Vibe",
-      "value": "Psychedelic"
+      "trait_type": "Color Scheme",
+      "value": "Fire Orange"
     },
     {
-      "trait_type": "Color Scheme",
-      "value": "Full Spectrum"
+      "trait_type": "Vibe",
+      "value": "Strategic Intensity"
+    },
+    {
+      "trait_type": "Game Element",
+      "value": "Tic-Tac-Toe"
     },
     {
       "trait_type": "Energy Level",
-      "value": "Maximum"
+      "value": "Blazing Hot"
     },
     {
       "trait_type": "Rarity",
-      "value": "Ultra Rare"
+      "value": "Rare"
     }
   ]
 }
 		// Construct a file according to the Web API
-		const file = new File([JSON.stringify(json)], "3.json");
+		const file = new File([JSON.stringify(json)], "4.json");
 
 		// Create form data and attach the file
 		const data = new FormData();
